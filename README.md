@@ -53,18 +53,9 @@ loggerConfiguration.IncludeThreadId = true;
 Target specific instances for logging:
 
 ```csharp
-NumericLoggableObject firstObject = new NumericLoggableObject();
-firstObject.WatchByLogger("FirstObject");
-firstObject.UpdateAndLogValue(5);
-
-NumericLoggableObject secondObject = new NumericLoggableObject();
-secondObject.UpdateAndLogValue(5);
-```
-
-```csharp
-class NumericLoggableObject
+class MyNumeric
 {
-    public void UpdateAndLogValue(int newValue)
+    public void Update(int newValue)
     {
         this.Info($"New value assigned: {numericValue}");
     }
@@ -72,6 +63,16 @@ class NumericLoggableObject
 
 }
 ```
+
+```csharp
+MyNumeric firstObject = new MyNumeric();
+firstObject.WatchByLogger("FirstObject");
+firstObject.Update(5);
+
+MyNumeric secondObject = new MyNumeric();
+secondObject.UpdateAndLogValue(5);
+```
+
 
 In this example, only `firstObject` will generate a log when updated, because it's being specifically watched by the logger.
 
