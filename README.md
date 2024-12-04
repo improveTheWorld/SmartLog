@@ -1,16 +1,16 @@
 
-🎉 Intelligent Logging with iLogger
+🎉 Intelligent Logging with SmartLog
 ===================================
 
-Whether you're monitoring a specific class instance or tracking a variable change, iLogger doesn't just observe—it actively assists you in maintaining complete transparency in your application's runtime environment.
+Whether you're monitoring a specific class instance or tracking a variable change, SmartLog doesn't just observe—it actively assists you in maintaining complete transparency in your application's runtime environment.
 
 This high-performance logging library is built to accommodate various logging scenarios. It's versatile, catering to different needs and customizable, allowing you to focus on specific variables or contexts. This ensures that you can trace your data modifications in real-time, gaining profound insights into your application's flow.
 
-At the heart of iLogger's functionality lies its ability to offer different granularities of log targeting, its flagship feature. You can activate logging exclusively for specific instances, contexts, or namespaces. Furthermore, the logger allows customizing powerful validation functions that direct the logging process, determining what gets logged at runtime.
+At the heart of SmartLog's functionality lies its ability to offer different granularities of log targeting, its flagship feature. You can activate logging exclusively for specific instances, contexts, or namespaces. Furthermore, the logger allows customizing powerful validation functions that direct the logging process, determining what gets logged at runtime.
 
-The name "iLogger" not only symbolizes intelligent logging but also resonates with terms like "interactive", "intuitive", and "innovative". With iLogger, the tasks of debugging and monitoring your application become streamlined and precise, granting you full authority over what, when, and where to log.
+With SmartLog, the tasks of debugging and monitoring your application become streamlined and precise, granting you full authority over what, when, and where to log.
 
-Embark on a journey of intelligent, context-aware logging with iLogger. Join the evolution in debugging and monitoring now!
+Embark on a journey of intelligent, context-aware logging with SmartLog. Join the evolution in debugging and monitoring now!
 
 To help keep this project vibrant, active, and free, **💌 [Donate Here](https://www.paypal.com/donate/?hosted_button_id=SJTG7U2E6PC4W) 💌**
 
@@ -19,8 +19,8 @@ To help keep this project vibrant, active, and free, **💌 [Donate Here](https:
 
 
 
-Incorporating iLogger is straightforward. Include it in your class and use the different `Log` levels methods to generate a log entry. Manage contexts and target individual variables with ease. The `Config` object makes adjusting the logger configuration simple.
-The `iLogger` library offers a diverse and flexible logging mechanism catering to varied logging needs. This guide showcases some of its prominent features.
+Incorporating SmartLog is straightforward. Include it in your class and use the different `Log` levels methods to generate a log entry. Manage contexts and target individual variables with ease. The `Config` object makes adjusting the logger configuration simple.
+The `SmartLog` library offers a diverse and flexible logging mechanism catering to varied logging needs. This guide showcases some of its prominent features.
 
 ### Getting Started
 
@@ -112,12 +112,12 @@ loggerConfiguration.RequesterValidation = (x) => x is NumericLoggableObject;
 
 With this, only instances of `NumericLoggableObject` will generate logs.
 
-With iLogger, the possibilities are limitless. Your logs can now be more insightful and versatile, assisting you in your development process.
+With SmartLog, the possibilities are limitless. Your logs can now be more insightful and versatile, assisting you in your development process.
 
 🎯 Potential Usages
 -------------------
 
-iLogger can be employed in numerous ways to assist in system development and debugging:
+SmartLog can be employed in numerous ways to assist in system development and debugging:
 
 * Customized Debugging
 * Performance Monitoring
@@ -127,7 +127,7 @@ iLogger can be employed in numerous ways to assist in system development and deb
 * Educational Purposes
 * Development Teams
 
-Each usage of iLogger brings you closer to a more streamlined and efficient development and debugging process.
+Each usage of SmartLog brings you closer to a more streamlined and efficient development and debugging process.
 
 🔍 Description
 --------------
@@ -169,23 +169,18 @@ The use of `BufferEnabled` set to `false`, meaning immediate or synchronous logg
 
 While there are benefits to synchronous logging, remember that it does come at the potential cost of performance. In scenarios where performance is a critical concern, and the volume of logs is high, asynchronous logging (i.e., `BufferEnabled` set to `true`) would likely be the better choice. But, as with many things in software design, it's all about evaluating and balancing trade-offs based on the specific needs of your application.
 
-🔜 Coming Next
---------------
-
-Stay tuned for our upcoming feature on context targeting. Soon, you'll have even greater control over your logs with the ability to specify the contexts where logging should happen.
-
-Join the revolution and experience the new era of logging in C# with iLogger today!
-
 🔐 License
 ----------
 
-* This project is licensed under the Apache V2.0 for free software use - see the [LICENSE](./LICENSE-APACHE.txt) file for details.
-* For commercial software use, see the [LICENSE\_NOTICE](./LICENSE_NOTICE.md) file.
+* For free software use, this project is licensed under the Apache V2.0  - see the [LICENSE](./LICENSE-APACHE.txt) file for details. 
+* For commercial software use, see the [LICENSE\_NOTICE](./LICENSE_NOTICE.md) license file.
 
 📬 Contact
 ----------
 
-If you have any questions, suggestions, or just want to chat about iLogger, please feel free to reach out to us:
+Here’s the corrected version of your sentence:
+
+If you have any questions, suggestions, or would like to purchase SmartLog for commercial software use, please feel free to reach out to us.:
 
 * [Tec-Net](mailto:tecnet.paris@gmail.com)
 
